@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #808080;
+}
+
+img {
+	filter: grayscale(1);
+}
+img:hover{
+	filter: grayscale(0);
+}
+
+.empujar{
+	margin-top: 100px;
+}
+
+header{
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	background-color: #ffffff;
+}
